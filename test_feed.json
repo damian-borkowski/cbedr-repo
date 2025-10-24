@@ -1,0 +1,36 @@
+{
+  "feedinfo": {
+    "name": "Custom_feed",
+    "display_name": "Custom Threat Feed",
+    "provider_url": "https://github.com/damian-borkowski/cbedr-repo",
+    "summary": "This feed lists hashes considered malicious for testing.",
+    "tech_data": "Feed created for learning purposes.",
+    "category": "Open Source"
+  },
+  "reports": [
+    {
+      "id": "malicious_hashes_1",
+      "title": "Custom Hashes",
+      "link": "https://github.com",
+      "timestamp": 1761300384,
+      "score": 100,
+      "iocs":  {
+        "md5": [
+          "3E2FC4D92AE18070FDDBC060D0C212AF"
+          "ACD0C1F49E40FDDC2063BDA0025B9643"
+          "84FDC9E1D9AE8A266FBA33565D4ADD4E"
+          "3FC5C8A30B9CAD8D16D2AE521E7363D6"
+        ],
+        "sha256": [
+          "20CBD25761401C04E20D9AF521BACC8734DAB1EDA7B0831FB72DC9B86234C3E9"
+          "CE7BBF2C75369B5E0ADE9F5611911AFCBA92D8C58AE84FCC8AAAFE7E5A7DBB36"
+          "58B5DCB41FD95467E098901C90E4CB1A984018A3406A4437FC98228772C00239"
+          "2BA38272B16F07224F00A41CD761FA7FBC0241EF9DA63A6E7875FFB96D8E4801"
+        ]
+      },
+      "description": "Hashes of File_Trigger"
+    }
+  ]
+
+}
+
