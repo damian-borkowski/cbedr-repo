@@ -1,10 +1,10 @@
 {
   "feedinfo": {
     "name": "Custom_feed",
-    "display_name": "MCustom Threat Feed",
+    "display_name": "Custom Threat Feed",
     "provider_url": "https://github.com/damian-borkowski/cbedr-repo",
     "summary": "This feed lists hashes considered malicious for testing.",
-    "tech_data": "Free demo feed created for learning purposes.",
+    "tech_data": "Feed created for learning purposes.",
     "category": "Open Source"
   },
   "reports": [
@@ -27,3 +27,4 @@
   ]
 
 }
+
